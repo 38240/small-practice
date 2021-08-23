@@ -5,8 +5,11 @@
     <title>test页面</title>
 </head>
 <body>
-<div style="background: aqua; width: 100px; height: 100px;">
-    <p style="background: blue;width: 50px;height: 50px;"></p>
-</div>
+<div style="background: aqua; width: 100px; height: 100px;"></div>
+<p style="background: blue;width: 50px;height: 50px;"></p>
+<script>
+    var dj = document.getElementsByTagName('div')[0]
+    dj.innerHTML = "<h1>test</h1>"
+</script>
 </body>
 </html>
