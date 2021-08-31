@@ -3,12 +3,21 @@ a{
     text-decoration: none;
 }
 
+#contain{
+    text-align: center;
+}
+
+#title{
+    font-size: 30px;
+}
+
 #main{
     width: 520px;
     height: 280px;
     /*background: aqua;*/
     position: relative;
     overflow: hidden;
+    left: 40%;
 }
 
 .arrow_l,
