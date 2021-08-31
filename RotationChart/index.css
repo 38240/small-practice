@@ -1,0 +1,59 @@
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+#main{
+    width: 520px;
+    height: 280px;
+    /*background: aqua;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow_l,
+.arrow_r{
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    display: none;
+    z-index: 99;
+}
+
+.arrow_r{
+    right: 0;
+}
+
+.rotation{
+    width: 600%;
+    padding: 0;
+    position: absolute;
+    left: 0;
+}
+
+.rotation li{
+    float: left;
+    list-style: none;
+}
+.circle{
+    list-style: none;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+#current {
+    background: black;
+}
